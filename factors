@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while read -r number; do
+    factorized=$(factor "$number")
+    echo "$number=$factorized"
+done < "$1"

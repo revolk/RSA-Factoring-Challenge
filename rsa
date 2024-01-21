@@ -1,0 +1,5 @@
+#!/bin/bash
+
+number=$(cat "$1")
+factorized=$(factor "$number")
+echo "$number=$factorized"
